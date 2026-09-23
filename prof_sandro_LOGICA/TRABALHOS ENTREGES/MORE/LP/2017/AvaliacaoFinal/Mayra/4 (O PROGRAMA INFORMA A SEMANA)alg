@@ -1,0 +1,68 @@
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 20/06/2017
+// Seção de Declarações
+var
+dia:vetor[1..5 , 1..2] de inteiro
+auxiliar:vetor[1..5]de caracter
+contc: inteiro
+contl: inteiro
+vdia : inteiro
+inicio
+escreval("INFORME O DIA E A SEMANA:")
+
+para contl de 1 ate 5 faca
+  leia (vdia)
+auxiliar [contl,contc] <- vdia
+fimpara
+para vdia de 1 ate 5 faca
+se dia = 1 ou 8 ou 15 ou 22 ou 29  entao
+auxiliar [contc,contl] <-  ("1")
+senao
+se vdia = 2 ou 9 ou 16 ou 23 ou 30 entao
+auxiliar [contc,contl] <-  ("2")
+senao
+se vdia = 3 ou 10 ou 17 ou 24 ou 31 entao
+auxiliar [contc,contl] <- ("3")
+senao
+se  vdia = 4 ou 11 ou 18 ou 25 entao
+auxiliar [contc,contl]  <-  ("4")
+senao
+se vdia = 5 ou 12 ou 19 ou 26 entao
+auxiliar [contc,contl]  <- ("5")
+senao
+se  vdia = 6 ou 13 ou 20 ou 27 entao
+auxiliar [contc,contl] <- ("6")
+senao
+se vdia = 7 ou 14 ou 21 ou 28 entao
+  auxiliar [contc,contl] <- ("7")
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+
+fimpara
+para contl de 1 ate 5 faca
+     se (dia[contl , 1] > 31) entao
+auxiliar[contl]<-"DIA INVALIDO"
+senao
+     se(dia[contl , 1]<1) entao
+auxiliar[contl]<-"DIA INVALIDO"
+     senao
+     se dia[contl , 1]>20 entao
+auxiliar[contl]<-"FIM DE MES"
+     senao
+     se dia[contl , 1]>10 entao
+auxiliar[contl]<-"MEIO DO MES"
+     senao
+auxiliar[contl]<-"INICIO DO MES"
+fimse
+fimse
+fimse
+fimse
+fimpara
+fimalgoritmo

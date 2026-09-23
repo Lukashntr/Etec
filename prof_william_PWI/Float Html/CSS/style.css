@@ -1,0 +1,62 @@
+#container{
+	width: 80%;
+	margin: 0 auto;	
+}
+section{
+	position: relative;
+	padding: 10px 10px;
+	margin: 15px auto;
+	border: 1px solid;
+}
+#responsivo{
+	
+	
+}
+#text{
+	background-color:grey;
+	color: white;
+	text-align: center;
+	font-style: bold;
+	position: relative;
+	
+}
+.dfideliz{
+  margin: 8px;
+  border: 1px solid #ccc;
+  float: left;	
+}
+#dfideliz1{
+	width: 224px;
+	height: 224px;
+}
+#dfideliz2{
+	width: 224px;
+	height: 224px;
+}
+#dfideliz3{
+	width: 224px;
+	height: 224px;
+}
+#dfideliz4{
+	width: 224px;
+	height: 224px;
+}
+#pe{
+	text-align: center;
+	background-color:grey;
+	color: white;
+	position: relative;
+}
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+img{
+	width: 100%;
+	float:right;
+	
+}
+
+
+
+

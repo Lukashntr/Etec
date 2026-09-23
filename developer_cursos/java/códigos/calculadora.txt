@@ -1,0 +1,27 @@
+ private void btnDivActionPerformed(java.awt.event.ActionEvent evt) {                                       
+      int num = Integer.parseInt(txtNum.getText());
+      int dem = Integer.parseInt(txtDen.getText());
+      float div = num / dem;
+      lblResul.setText(Float.toString(div));
+    }                                      
+
+    private void btnMultActionPerformed(java.awt.event.ActionEvent evt) {                                        
+      int num = Integer.parseInt(txtNum.getText());
+      int dem = Integer.parseInt(txtDen.getText());
+      float mult = num * dem;
+      lblResul.setText(Float.toString(mult));   
+    }                                       
+
+    private void btnAdiActionPerformed(java.awt.event.ActionEvent evt) {                                       
+      int num = Integer.parseInt(txtNum.getText());
+      int dem = Integer.parseInt(txtDen.getText());
+      float adicao = num + dem;
+      lblResul.setText(Float.toString(adicao));
+    }                                      
+
+    private void btnSubActionPerformed(java.awt.event.ActionEvent evt) {                                       
+      int num = Integer.parseInt(txtNum.getText());
+      int dem = Integer.parseInt(txtDen.getText());
+      float sub = num - dem;
+      lblResul.setText(Float.toString(sub));
+    }                              

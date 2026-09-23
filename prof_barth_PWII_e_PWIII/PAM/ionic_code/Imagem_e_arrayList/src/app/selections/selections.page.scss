@@ -1,0 +1,30 @@
+*{
+    color: blue;
+}
+.item_catalogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titulo{
+    text-align: left;
+    font-size: 20px;
+    font-style: italic;
+}
+.catalogo{
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+.skyline{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+.btn{
+    font-size: 12px;
+    background-color: rgb(0, 102, 255);
+    border-radius: 5px;
+    color: white;
+}

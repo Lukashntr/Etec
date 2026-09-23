@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="IRSforms.exe" version="1.0.0.0" publicKeyToken="f2638cf7ba35e79e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="IRSforms" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="IRSforms.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto UAC
+          Se desejar mudar o nível de Controle de Conta de Usuário do Windows, substitua o 
+          nó requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Se deseja usar a Virtualização de Arquivos e Registro para compatibilidade 
+         com versões anteriores, exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IRSforms.exe" size="10184">
+      <assemblyIdentity name="IRSforms" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>eFnpPMOBbEFfWknxF5r5lWYb+aFXkrr1pSxb5BbpqwY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="IRSforms.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LUCK\Miguel Lukas" issuerKeyHash="fddc78b3dc2e20d07ce6e7d3abb83458628b2a5f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>btMPXj5mNuJpIfgrjmT+eWZXc6BBXidCInY1NmIdkZs=</DigestValue></Reference></SignedInfo><SignatureValue>G+pY0fH5Ee6c8niX6+g3deYQpF+6kfM3eQb1Sbz4qJuLMaLcSj+m3ktC+AkSF6RypkQAGyhqlhFOAb4w46ImOqY1tJ7p5JpOULdjFuwTepLH0UirGm+yqjeUracUsH3v/E/x6aI/5kviwA0Ka9UcgzCYF0cXz+cAxE+rzPHbxmo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>q7mJdc8Kf0dzivatsxIHo+ugK9mOnnV4WexGkgfBtwcVTX69raYDeHFwaFu26P+U3cY7t0sLYuRxWTSz1CZgfTr8rlTOvmw9vsrELa9ZcGFcEpcMI/QBdUuzVlL6w6ledAlIkmRVeTO6xc0Csd+8QmtxrZVOmxqDxBE28bxQa00=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9b911d623635762242275e41a073576679fe648e2bf82169e236663e5e0fd36e" Description="" Url=""><as:assemblyIdentity name="IRSforms.exe" version="1.0.0.0" publicKeyToken="f2638cf7ba35e79e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LUCK\Miguel Lukas</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>hdHxjVHs74qnS6yyyZw/2sRySO7eOzKbqg8kELcKoz0=</DigestValue></Reference></SignedInfo><SignatureValue>kZ8hqsOlAAifqa3tZXDHMERFKV4YDpHzi8JjPBBsMy0iu37v/kkG2CjN7rUyFrrp2bHN4jDTbr1lUHMvMw0dOimSdmZopA7urtnzWvMqGGXTPZLV2acHH76af61Ig5yN1uhnIkcDAQT6aI3ITZDdFfL5XmmbHxTi4WSeeeNOhJQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>q7mJdc8Kf0dzivatsxIHo+ugK9mOnnV4WexGkgfBtwcVTX69raYDeHFwaFu26P+U3cY7t0sLYuRxWTSz1CZgfTr8rlTOvmw9vsrELa9ZcGFcEpcMI/QBdUuzVlL6w6ledAlIkmRVeTO6xc0Csd+8QmtxrZVOmxqDxBE28bxQa00=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQWn8Jiv8jrbdA+XW0kw7wNjANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIATABVAEMASwBcAE0AaQBnAHUAZQBsACAATAB1AGsAYQBzMB4XDTIwMDYxMjA0NTgwNFoXDTIxMDYxMjEwNTgwNFowLTErMCkGA1UEAx4iAEwAVQBDAEsAXABNAGkAZwB1AGUAbAAgAEwAdQBrAGEAczCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAq7mJdc8Kf0dzivatsxIHo+ugK9mOnnV4WexGkgfBtwcVTX69raYDeHFwaFu26P+U3cY7t0sLYuRxWTSz1CZgfTr8rlTOvmw9vsrELa9ZcGFcEpcMI/QBdUuzVlL6w6ledAlIkmRVeTO6xc0Csd+8QmtxrZVOmxqDxBE28bxQa00CAwEAATANBgkqhkiG9w0BAQsFAAOBgQAqD2g3NnrtHwjzWeUMD6JhO6Omo9dVrXjaqPnqdGyBkR5dX2zYiRAnfbjUREAPDPCrK9RGoPZiM6HepHqNM0/Z9zHueC+tYUtlxI6pnadhLRrkj5h9QJF1ivTYXz6L9vvAwXuwGpo351o7DhEpxGOKV9BSIMmQu8MUbN5OSLnb1g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

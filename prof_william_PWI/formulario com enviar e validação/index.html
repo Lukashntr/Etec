@@ -1,0 +1,79 @@
+<DOCTYPE HTML>
+<html lang="pt-br">
+	<HEAD>
+		
+		<meta charset="UTF-8"/>
+		<title>Formulário</title>
+		<link rel="icon" type="Imagem/gif" href="imagem/fogo.gif"/>
+		<link rel="stylesheet" type="text/css" href="CSS/style.css"/>
+		
+	</HEAD>
+
+
+
+
+	<BODY>
+		<h1>Tags Novas para formulários</h1>
+		<form>
+			<fieldset> 
+				<legend>Dados Pessoais</legend>
+				<div>
+					<label>R.G<br> </label>
+					<input type="text" placeholder="00.000.00.00-0" required />
+				</div>
+				<div>
+					<label>E-mail:<br> </label>
+					<input type="email" placeholder="email@dominío.com" required />
+				</div>
+				<div>
+					<label>Texto Obrigatório:<br></label>
+					<input type="text" />
+				</div>
+			</fieldset>
+			
+			<fieldset>
+			
+				<legend>Dados Adicionais</legend>
+				<div>
+					Patern (CEP): <br>
+					<input type="text" pattern="[0-9]{5}-[0-9]{3}$" placeholder="00000-000" />
+				</div>
+				<div>
+					Data:<br>
+					<input type="date" />
+				</div>
+				<div>
+					Range:<br>
+					<input type="range" min="10" max="15" value="12" placeholder="" />
+					<output>12</output>
+				</div>
+				<div>
+					<label><input type="checkbox" value="valor1" /> Valor 1</label><br>
+					<label><input type="checkbox" value="valor1" /> Valor 1</label><br>
+					<label><input type="checkbox" value="valor1" /> Valor 1</label><br>
+					<label><input type="checkbox" value="valor1" /> Valor 1</label><br>
+					<label><input type="checkbox" value="valor1" /> Valor 1</label><br>
+				</div>
+				<div>
+					<button type="submit"> Enviar </button> <button type="submit"> Apagar </button>
+				</div>
+				
+				
+				
+				
+				
+				
+			</fieldset>
+		
+		
+		
+		
+		</form>
+	
+	
+		
+	</BODY>
+
+
+
+</HTML>

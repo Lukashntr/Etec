@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css"/>
+	<link rel="icon" type="imagem/png" src="icon/IMG"/>
+
+</head>
+
+<body class="container">
+
+
+
+
+</body>
+</html>

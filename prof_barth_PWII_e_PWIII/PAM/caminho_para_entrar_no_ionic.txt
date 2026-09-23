@@ -1,0 +1,7 @@
+C:\Users\etecja\IONIC\blank\src\app
+
+Comando para abrir no Git Here
+code . 
+
+Comando para executar o app 
+ionic serve

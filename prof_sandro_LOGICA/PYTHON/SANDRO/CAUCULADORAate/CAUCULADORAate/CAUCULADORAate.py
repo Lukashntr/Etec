@@ -1,0 +1,42 @@
+print('---CALCULADORA---') 
+
+a = int 
+b = int
+mult = int 
+cont = int
+
+cont = 0;
+a = int(input(' Informe o primeiro valor do intervalo '))
+b = int(input(' Informe o segundo valor do intervalo '))
+        
+
+while a <= b :
+    while cont <= 10 :
+
+        mult = a * cont;
+        print(a,'x',cont,'=',mult) 
+        cont = cont + 1
+
+    pass
+    a = a + 1
+    cont = 0
+
+    while a <= b and cont <= 10:
+
+        mult = a * cont;
+        print(a,'x',cont,'=',mult) 
+        cont = cont + 1
+
+    pass
+    a = a + 1
+    cont = 0 
+
+    while  a <= b and cont <= 10:
+
+        mult = a * cont;
+        print(a,'x',cont,'=',mult) 
+        cont = cont + 1
+
+    pass
+pass
+print(' FIM DA EXECUÇÃO ')

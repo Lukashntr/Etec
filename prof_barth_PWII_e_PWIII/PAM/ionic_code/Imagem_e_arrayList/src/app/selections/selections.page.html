@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="titulo" > Catálogo </ion-title>
+
+    <ion-buttons slot="start">
+        <ion-button (click)="openPage('menu')" class="btn" expend="back" >voltar</ion-button>     
+    </ion-buttons>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <!-- Catalogo de rodas liga leve -->
+  <ion-item class="item_catalogo">
+    <ion-label class="catalogo"> Itens a venda </ion-label> 
+  </ion-item>
+
+  <!-- checkbox de rodas -->
+  <ion-list (ionChange)="escreveConsole($event)">
+
+    <ion-item *ngFor="let item of item"> <!-- iteração do vetor(Array) fazendo uma lista dinamica de checkBox -->
+
+      <img class="skyline" src="{{ item.img }}">
+
+      <ion-label>{{ item.value }}</ion-label>
+
+      <ion-checkbox 
+        slot="end" 
+        color="primary" 
+        [(ngModel)]="item.isChecked"
+        (ionChange)="checkEvent()"
+        value={{item.value}}>
+      </ion-checkbox>
+
+    </ion-item>
+    
+  </ion-list>
+</ion-content>

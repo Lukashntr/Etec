@@ -1,0 +1,51 @@
+Algoritmo "ENQUANTO"
+//
+//
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 01/09/2019
+Var
+   // Seção de Declarações das variáveis
+   num : real
+   soma: real
+   media : real
+   cont : real
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreval(" Informe numeros apartir de 1 para descubrir media e soma.")
+   escreval(" Letras terão valor de zero (0)")
+   escreval(" Infome qualquer numero apartir de 1 para continuar )")
+   leia (num)
+   cont <- 1
+   se (num > 0 ) entao
+      enquanto (cont <= 10 ) faca
+
+         escreval (" Numero digitado foi:", num )
+         escreval (" ")
+
+         soma <- soma + num
+         escreval (" A soma dos numeros é:", soma)
+         escreval (" ")
+
+         media <- soma / cont
+         escreval (" A média dos numeros é:", media)
+         escreval (" ")
+
+         cont <- cont + 1
+         escreval (" Informe o proximo numero para continuar!")
+         leia(num)
+
+      fimenquanto
+
+    senao
+         escreva(" numero invalido")
+    fimse
+     se (cont = 11 ) entao
+         cont <- cont - 1
+       escreval (" Voce já digitou todos os numeros necessarios")
+       escreval (" O total dos numeros digitados foi", cont )
+       escreval (" A soma dos numeros digitados foi", soma )
+       escreval (" A média dos numeros digitados foi", media )
+
+    fimse
+Fimalgo

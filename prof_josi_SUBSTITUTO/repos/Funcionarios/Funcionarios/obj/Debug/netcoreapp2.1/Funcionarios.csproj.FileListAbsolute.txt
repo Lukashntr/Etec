@@ -1,0 +1,4 @@
+C:\Users\migue_000\source\repos\Funcionarios\Funcionarios\obj\Debug\netcoreapp2.1\Funcionarios.csprojAssemblyReference.cache
+C:\Users\migue_000\source\repos\Funcionarios\Funcionarios\obj\Debug\netcoreapp2.1\Funcionarios.csproj.CoreCompileInputs.cache
+C:\Users\migue_000\source\repos\Funcionarios\Funcionarios\obj\Debug\netcoreapp2.1\Funcionarios.AssemblyInfoInputs.cache
+C:\Users\migue_000\source\repos\Funcionarios\Funcionarios\obj\Debug\netcoreapp2.1\Funcionarios.AssemblyInfo.cs

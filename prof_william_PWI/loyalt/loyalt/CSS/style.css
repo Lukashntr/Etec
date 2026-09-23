@@ -1,0 +1,41 @@
+.container{
+	margin: 0 auto;
+	width: 80%;	
+	background-color: #ffffcc;
+}
+h1{
+	color: black;
+	padding-top: 60px;
+	text-align: center;
+	font-family: Constantia;
+}
+p{
+	color: black;
+	text-align: center;
+	font-family: Constantia;	
+}
+#f{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	position: absolute;
+	padding-bottom: 50px;
+	width: 80%;
+	height: 50%;
+}	
+.imagens{
+	padding: 10px 10px 10px 10px;
+	width: 224px;
+	height: 224px;
+	border: solid 1px black;	
+	background-color: white;
+}
+.desc{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: black;
+	text-align: center;
+	border: solid 1px black;
+	font-family: Franklin Gothic Medium Cond;
+	background-color: white;
+}

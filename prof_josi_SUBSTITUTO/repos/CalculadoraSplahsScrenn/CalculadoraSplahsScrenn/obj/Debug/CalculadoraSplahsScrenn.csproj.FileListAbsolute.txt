@@ -1,0 +1,11 @@
+C:\Users\migue_000\source\repos\CalculadoraSplahsScrenn\CalculadoraSplahsScrenn\bin\Debug\CalculadoraSplahsScrenn.exe.config
+C:\Users\migue_000\source\repos\CalculadoraSplahsScrenn\CalculadoraSplahsScrenn\bin\Debug\CalculadoraSplahsScrenn.exe
+C:\Users\migue_000\source\repos\CalculadoraSplahsScrenn\CalculadoraSplahsScrenn\bin\Debug\CalculadoraSplahsScrenn.pdb
+C:\Users\migue_000\source\repos\CalculadoraSplahsScrenn\CalculadoraSplahsScrenn\obj\Debug\CalculadoraSplahsScrenn.csprojAssemblyReference.cache
+C:\Users\migue_000\source\repos\CalculadoraSplahsScrenn\CalculadoraSplahsScrenn\obj\Debug\CalculadoraSplahsScrenn.Form1.resources
+C:\Users\migue_000\source\repos\CalculadoraSplahsScrenn\CalculadoraSplahsScrenn\obj\Debug\CalculadoraSplahsScrenn.Properties.Resources.resources
+C:\Users\migue_000\source\repos\CalculadoraSplahsScrenn\CalculadoraSplahsScrenn\obj\Debug\CalculadoraSplahsScrenn.csproj.GenerateResource.cache
+C:\Users\migue_000\source\repos\CalculadoraSplahsScrenn\CalculadoraSplahsScrenn\obj\Debug\CalculadoraSplahsScrenn.csproj.CoreCompileInputs.cache
+C:\Users\migue_000\source\repos\CalculadoraSplahsScrenn\CalculadoraSplahsScrenn\obj\Debug\CalculadoraSplahsScrenn.exe
+C:\Users\migue_000\source\repos\CalculadoraSplahsScrenn\CalculadoraSplahsScrenn\obj\Debug\CalculadoraSplahsScrenn.pdb
+C:\Users\migue_000\source\repos\CalculadoraSplahsScrenn\CalculadoraSplahsScrenn\obj\Debug\CalculadoraSplahsScrenn.teladeloading.resources

@@ -1,0 +1,77 @@
+1.	Faça um algoritmo para ler um número inteiro e informar se este número é par ou ímpar.
+
+2.	Faça um algoritmo para ler duas variáveis inteiras A e B e garantir que A e B fiquem em ordem crescente, ou seja, a variável A deverá armazenar o menor valor fornecido e a variável B o maior.
+
+3.	Elabore um algoritmo para testar se uma senha digita é igual a “MinhaSenha”. Se a senha estiver correta escreva “Acesso permitido”, do contrário emita a mensagem “Você não tem acesso ao sistema”.
+
+4.	Desenvolva um algoritmo que receba o dia da semana (número) e informe o dia da semana (literal).
+
+DIA	DESCRIÇÃO
+1	Segunda-Feira
+2	Terça-Feira
+3	Quarta-Feira
+4	Quinta-feira
+5	Sexta-Feira
+6	Sábado
+7	Domingo
+
+5.	Faça um algoritmo para ler um salário e atualizá-lo de acordo com a tabela abaixo.
+FAIXA SALARIAL	AUMENTO
+Até 600,00			30%
+600,01 a 1.100,00	25%
+1100,01 a 2.400,00	20%
+2400,01 a 3.550,00	15%
+Acima de 3.550,00	10%
+
+6.	De acordo com a tabela abaixo, desenvolva um algoritmo que leia um código do produto informado pelo usuário e informe a descrição do lanche.
+CÓDIGO	DESCRIÇÃO DO PRODUTO
+100		X-Salada com coca-cola.
+200		Hot dog com suco de laranja
+300		Sanduiche natural com suco de uva.
+400		Misto Quente com fanta laranja.
+500		Pão com manteiga com café.
+600		Pão com manteiga na chapa com café com leite.
+		Qualquer outro código diferente dos códigos da tabela, informar a mensagem "Código informado inválido."
+
+7.	Faça um algoritmo que receba um número e mostre uma mensagem caso este número seja maior que 10.
+
+8.	Escrever um algoritmo que leia dois valores inteiros distintos e informe qual é o maior.
+
+9.	Faça um algoritmo que receba um número e diga se este número está no intervalo entre 100 e 200.
+
+10.	Escrever um algoritmo que leia o nome e as três notas obtidas por um aluno durante o semestre. Calcular a sua média (aritmética), informar o nome e sua menção aprovado (media >= 7), Reprovado (media <= 5) e Recuperação (media entre 5.1 a 6.9).
+
+11.	Faça um algoritmo para ler dois números inteiros e informar se estes números são iguais ou diferentes.
+
+12.	Elabore um algoritmo para testar se uma senha digita é igual a “batatafrita”. Se a senha estiver correta escreva “Acesso permitido”, do contrário emita a mensagem “Você não tem acesso ao sistema”.
+
+13.	Um determinado clube de futebol pretende classificar seus atletas em categorias e para isto ele contratou um programador para criar um programa que executasse esta tarefa. Para isso o clube criou uma tabela que continha a faixa etária do atleta e sua categoria. A tabela está demonstrada abaixo:
+IDADE 		CATEGORIA
+De 05 a 10	Infantil
+De 11 a 15	Juvenil
+De 16 a 20 	Junior
+De 21 a 25 	Profissional
+Construa um programa que solicite o nome e a idade de um atleta e imprima a sua categoria.
+
+14.	Faça um algoritmo que receba o valor da venda informado pelo usuário, e exiba o valor da compra de acordo com as condições de pagamento listadas abaixo:
+1 - Venda a Vista - desconto de 10%
+2 - Venda a Prazo 30 dias - desconto de 5%
+3 - Venda a Prazo 60 dias - mesmo preço
+4 - Venda a Prazo 90 dias - acréscimo de 5%
+5 - Venda com cartão de débito - desconto de 8%
+6 - Venda com cartão de crédito - desconto de 7%
+
+15.	Escreva um algoritmo que leia 3 valores inteiros (considere que não serão informados valores iguais) e escrever o maior deles.
+
+16.	Escreva um algoritmo que leia 3 valores inteiros (considere que não serão informados valores iguais) e escrever a soma dos 2 maiores.
+
+17.	Escreva um algoritmo que leia 3 valores inteiros (considere que não serão informados valores iguais) e escrevê-los em ordem crescente.
+
+18.	Escreva um algoritmo que leia o nome de 2 times e o número de gols marcados na partida (para cada time). Escrever o nome do vencedor. Caso não haja vencedor deverá ser impressa a palavra EMPATE.
+
+19.	Escreva um algoritmo que leia dois valores inteiros e imprimir uma das três mensagens a seguir:
+‘Números iguais’, caso os números sejam iguais
+‘Primeiro é maior’, caso o primeiro seja maior que o segundo;
+‘Segundo maior’, caso o segundo seja maior que o primeiro.
+
+20.	Desenvolva um algoritmo que leia três valores inteiro informado pelo usuário e ao final exiba o maior valor entre eles.

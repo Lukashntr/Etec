@@ -1,0 +1,51 @@
+
+<ion-header> <!-- Cabeçalho da pagina -->
+  <ion-toolbar> <!-- Barra para alojar o titulo do menu fora --> 
+
+    <ion-title class="titulo"> Miguel Lukas Costa Almeida, Turma A </ion-title> <!-- titulo do menu -->
+
+
+    <!-- Botão para a inicialização do menu-->
+    <ion-buttons slot="start"> 
+      <ion-menu-button class="btnmenu"></ion-menu-button>
+    </ion-buttons>
+    
+  </ion-toolbar> <!-- Fechamento da barra de alojamento do titulo do menu -->
+  
+    <ion-item class="item_catalogo">
+      <ion-label class="catalogo">Catalogo de peças</ion-label>
+    </ion-item>
+
+  <ion-slides> <!-- Slide da imagem centralizada -->
+    <ion-slide>
+      <div>
+        <img class="skyline" src="../../assets\img\skyline.jpg">
+      </div>
+    </ion-slide>
+  </ion-slides>
+  
+  <ion-menu side="start" menuId="first" contentId="main"> <!-- *  começo do menu start -->
+
+    <ion-header class="mn" > <!-- cabeçalho do menu -->
+      <ion-toolbar> <!-- Barra para alojar o titulo do menu dentro do menu -->
+
+        <ion-title class="menu"> Menu </ion-title> <!-- titulo do menu -->
+
+      </ion-toolbar> <!-- fechamento da barra de alojamento do titulo do menu -->
+    </ion-header> <!-- fechamento do cabeçalho do menu -->
+
+    <ion-content class="mn" > 
+      <ion-list> <!-- Lista que carrega os itens do menu -->
+        <ion-menu-toggle auto-hide="false" *ngFor="let item of item">
+
+          <!-- Item do menu a ser iterado -->
+          <ion-item class="menu" (click)="openPage(item.path)"> <!-- Icone sendo inserido -->
+            <ion-icon class="itemmenu" name="{{ item.icon }}">/</ion-icon>
+            <ion-label class="itemmenu" >{{ item.name }}</ion-label>
+          </ion-item>
+
+        </ion-menu-toggle>
+      </ion-list>
+    </ion-content>
+
+<ion-router-outlet id="main"></ion-router-outlet> <!-- * Fechamento do menu -->

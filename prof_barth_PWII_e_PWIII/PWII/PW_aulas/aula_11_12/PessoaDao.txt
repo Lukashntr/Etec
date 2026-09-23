@@ -1,0 +1,80 @@
+<?php
+
+include 'DaoConnect.php';
+
+class PessoaDao {
+
+    public function inserirPessoa(Pessoa $pes) {
+        // conecta ao banco
+        $dao = new DaoConnect();
+        // cria variável $conn que recebe a conexão por meio do objeto $dao
+        $conn = $dao->connect();
+
+        // realiza o processo de insert no banco de dados
+        try {
+            $insert = $conn->prepare("INSERT INTO pessoa(nome, endereco, cep, obs) "
+                    . "VALUES(:nome, :endereco, :cep, :obs)");
+            $insert->bindValue(":nome", $pes->getNome());
+            $insert->bindValue(":endereco", $pes->getEndereco());
+            $insert->bindValue(":cep", $pes->getCep());
+            $insert->bindValue(":obs", $pes->getObs());
+            $insert->execute();  // executa a query
+            // retorna ok de dados inseridos
+            return 1;
+        } catch (Exception $e) {
+            // echo "Erro de Iserção: " . $e->getMessage();
+            // devolve para obj $pes o status de erro para inserido
+            return 0;
+        }
+
+        // fecha a conexão
+        $dao->disconnect();
+    }
+
+    public function pesquisarPessoa(Pessoa $pes) {
+        // conecta ao banco
+        $dao = new DaoConnect();
+        // cria variável $conn que recebe a conexão por meio do objeto $dao
+        $conn = $dao->connect();
+
+        // realiza o processo de select no banco de dados
+        try {
+            $res = $conn->prepare("SELECT * FROM pessoa WHERE nome LIKE '%" . $pes->getNome() . "%'");
+            $res->execute();
+
+            /* retorna todos resultados da pesquisa */
+            $result = $res->fetchAll();
+            // retorna  dados inseridos
+            return $result;
+        } catch (Exception $e) {
+            // erro de SQL Execute
+            return null;
+        }
+
+        // fecha a conexão
+        $dao->disconnect();
+    }
+    
+    public function excluirPessoa(Pessoa $pes) {
+        // conecta ao banco
+        $dao = new DaoConnect();
+        // cria variável $conn que recebe a conexão por meio do objeto $dao
+        $conn = $dao->connect();
+
+        // realiza o processo de select no banco de dados
+        try {
+            $res = $conn->prepare("DELETE FROM pessoa WHERE id = " . $pes->getId() . "");
+            $res->execute();
+
+            // retorna  1 para dado excluído com sucesso
+            return 1;
+        } catch (Exception $e) {
+            // erro de SQL Execute
+            return null;
+        }
+
+        // fecha a conexão
+        $dao->disconnect();
+    }
+
+}

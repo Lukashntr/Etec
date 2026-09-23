@@ -1,0 +1,34 @@
+
+<ion-header>
+  <ion-toolbar> <!-- Barra para alojar o titulo do menu fora --> 
+
+    <ion-title> BARTHOLOMEU </ion-title> <!-- titulo do menu -->
+
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-menu side="start" menuId="first" contentId="main"> <!-- *  começo do menu start -->
+
+  <ion-header>
+    <ion-toolbar> <!-- Barra para alojar o titulo do menu dentro do menu -->
+      <ion-title> BARTHOLOMEU ITENS </ion-title> <!-- titulo do menu -->
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <ion-list> <!-- Lista que carrega os itens do menu -->
+      <ion-item (click)="openPage('button')">Botão</ion-item>
+      <ion-item (click)="openPage('selections')">abrir lista de seleção</ion-item>
+      <ion-item>Suvinil</ion-item>
+      <ion-item>Baraca</ion-item>
+      <ion-item>Thomas o Trem</ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+
+<ion-router-outlet id="main"></ion-router-outlet> <!-- * Fechamento do menu -->

@@ -1,0 +1,35 @@
+﻿'1-) Elabore um programa que calcule os valores de retenção para IRS e Segurança Social de um determinado funcionário. Admita que as taxas de retenção para o IRS são de 15% e para a Segurança Social de 12% . Calcule e apresente o valor da retenção e salário liquido.
+
+2-) Elabore um programa que calcule o consumo de combustivel de um automovel (por 100 km) e o valor da despesa da viagem. O programa deverá solicitar, para além do comsumo registrado e dos quilometros (kms) percorridos, o preço atual do combustivel.
+
+3-) Elabore um programa que simule uma eleição eletrónica. Admita que no boletim de voto estão representados quatro candidatos. Calcule e apresente, no final da eleição, o número do votos que cada candidato obteve, assim como a respectiva porcentagem.
+
+O programa deverá ainda apresenta o candidato vencedor. Admita, para o caso de empate, que o vencedor será aquele atingir em primeiro lugar o maior número de votos.
+
+Para terminar a eleição deverá utilizar o valor zero.
+
+4-) Elabore um programa que receba as medidas dos lados de um triângulo. Apresente uma das seguintes mensagens:
+   * É um triângulo escaleno (todos os lados diferentes);
+   * É um triângulo isósceles (dois lados iguais e um diferente);
+   * É um triângulo equilátero (todos os lados são iguais);
+   * Não é um triângulo (a soma dos dois lados menores é menor que o lado maior ou um lado é menor ou igual a zero).
+
+5-)  Elabore um programa que solicite ao utilizador a idade de uma pessoa, e que calcule e apresente o número de pessoas por faixas etárias e a respetiva porcentagem parcial.
+Considere as seguintes faixas etárias:
+   * De 1 a 15 anos;
+   * De 16 a 30 anos;
+   * De 31 a 45 anos;
+   * De 45 a 60 anos;
+   * Mais de 61 anos.
+Para terminar a introdução dos dados e apresentar os resultados, escreva a valor zero na idade.
+
+6-) Elabore um programa que calcule e apresente a tabuada de um número indicado pelo utilizador.
+
+7-) Elabore um programa que receba um número indeterminado de idades de pessoas. Calcule e apresente, nofinal da inscrição, a quantidade de pessoas inseridas, a médida das idades inseridas, a idade da pessoa mais velha e a idade da pessoa mais nova.
+Para termina inserção de dados indique o valor zero para a idade.
+
+8-) Crie um algoritmo que verifique se um número informado é par ou impar.
+
+9-) Faça um algoritmo que leia a altura e a matricula de dez aluno. Mostre a matricula do aluno mais alto e do aluno mais baixo.
+
+10-) Faça um algoritmo que calcule e exiba o salário reajustado de dez funcionários de acordo com a seguinte regra: Salário até 300, reajuste de 50%; Salários maiores que 300, reajuste de 30%.

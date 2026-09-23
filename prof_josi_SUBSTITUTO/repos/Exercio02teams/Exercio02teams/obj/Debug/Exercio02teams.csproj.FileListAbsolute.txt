@@ -1,0 +1,7 @@
+C:\Users\migue_000\source\repos\Exercio02teams\Exercio02teams\bin\Debug\Exercio02teams.exe.config
+C:\Users\migue_000\source\repos\Exercio02teams\Exercio02teams\bin\Debug\Exercio02teams.exe
+C:\Users\migue_000\source\repos\Exercio02teams\Exercio02teams\bin\Debug\Exercio02teams.pdb
+C:\Users\migue_000\source\repos\Exercio02teams\Exercio02teams\obj\Debug\Exercio02teams.csprojAssemblyReference.cache
+C:\Users\migue_000\source\repos\Exercio02teams\Exercio02teams\obj\Debug\Exercio02teams.csproj.CoreCompileInputs.cache
+C:\Users\migue_000\source\repos\Exercio02teams\Exercio02teams\obj\Debug\Exercio02teams.exe
+C:\Users\migue_000\source\repos\Exercio02teams\Exercio02teams\obj\Debug\Exercio02teams.pdb

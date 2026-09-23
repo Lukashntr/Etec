@@ -1,0 +1,26 @@
+create database PWIII_PDO_MVC;
+
+use PWIII_PDO_MVC;
+
+create table if not exists `Usuario`(
+`id` int(11) AUTO_INCREMENT,
+`nome` varchar(50) DEFAULT NULL,
+`email` varchar(100) UNIQUE DEFAULT NULL,
+`datanasc` varchar(14) DEFAULT NULL,
+`cargo` varchar(50) DEFAULT NULL,
+`senha` varchar(14) DEFAULT NULL,
+`data` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+PRIMARY KEY (id)
+) 
+CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+create table if not exists `login`(
+`id` int(11) AUTO_INCREMENT,
+`email` varchar(50) DEFAULT NULL,
+`senha` varchar(14) DEFAULT NULL,
+`data` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+PRIMARY KEY (id)
+) 
+CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+INSERT INTO login(email, senha) VALUES ('admin',123456);

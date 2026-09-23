@@ -1,0 +1,133 @@
+
+package projetodobanco;
+
+import java.util.Scanner;
+
+public class ProjetoDoBanco {
+    static final int ZERO = 0;
+
+    public static void main(String[] args) {
+        
+        
+        
+        String nome, banco, uf, cidade, bar, rua;
+        int ncasa, senha, conta, agencia, codseg, card, c, idade; 
+        float rg, cpf, cep, saque;   
+        
+        
+        c = 0;
+        do 
+        {
+            System.out.println("----- PROGRAMA DO BANCO EM JAVA -----");
+
+            Scanner s = new Scanner (System.in);
+
+            System.out.println("--- BEM VINDO AO BANCO 24Hs JAVA ---");
+
+            System.out.print(" Informe o seu nome:  ");
+            nome = s.next();
+            
+            System.out.print(" Informe sua idade:  ");
+            idade = s.nextInt();
+
+            System.out.print(" Informe o seu banco:  ");
+            banco = s.next();
+
+            System.out.print(" Informe a seu estado:  ");
+            uf = s.next();
+
+            System.out.print(" Informe a sua cidade:  ");
+            cidade = s.next();
+
+            System.out.print(" Informe seu bairro:  ");
+            bar = s.next();
+
+            System.out.print(" Informe o nome da rua em que reside:  ");
+            rua = s.next();
+
+            System.out.print(" Informe o numero da casa em que reside:  ");
+            ncasa = s.nextInt();
+            
+            System.out.print(" Informe o cep de sua residencia:  ");
+            cep = s.nextFloat();
+            
+
+          System.out.println("-----------------------------------------------");
+          System.out.println("--- BEM VINDO AO SUPORTE DO BANCO "+banco+" ---");
+          System.out.println("-----------------------------------------------");
+
+            System.out.println(" CLIENTE:  " + nome);
+            System.out.println(" CIDADE:  " + cidade);
+            
+            System.out.print(" Informe seu RG:  ");
+            rg = s.nextFloat();
+            
+            System.out.print(" Informe o seu CPF:  ");
+            cpf = s.nextFloat();
+
+            System.out.print(" Informe o numero da conta:  ");
+            conta = s.nextInt();
+
+            System.out.print(" Informe os QUATRO ultimos numeros do cartão:  ");
+            card = s.nextInt();
+
+            System.out.print(" Informe o numero da agência:  ");
+            agencia = s.nextInt();
+
+            System.out.print(" Informe o codigo de segurança:  ");
+            codseg = s.nextInt();
+
+            System.out.print(" Informe a senha do cartão:  ");
+            senha = s.nextInt();
+
+            if (senha == 1234)
+            {
+                System.out.println("--- CARTÃO VERIFICADO COM SUCESSO ---");
+                System.out.print(" Informe o valor que deseja sacar ");
+                saque = s.nextFloat();
+
+                if ( saque <= 500) 
+                {
+                    System.out.println("--- SAQUE PERMITIDO COM SUCESSO ---");
+                    // falta mostrar os dados obitidos pelo usuario
+                    System.out.println("--- COMPROVANTE ---");
+                    System.out.println(" NOME:  " + nome);
+                    System.out.println(" IDADE:  " + idade);
+                    System.out.println(" RG:  " + rg);
+                    System.out.println(" CPF:  " + cpf);
+                    System.out.println(" ESTADO:  " + uf);
+                    System.out.println(" CIDADE:  " + cidade);
+                    System.out.println(" BAIRRO:  " + bar);
+                    System.out.println(" CEP:  " + cep);
+                    System.out.println(" RUA:  " + rua);
+                    System.out.println(" Nº CASA:  " + ncasa);
+                    System.out.println("------- 24Hs -------");
+                    System.out.println(" Nº CONTA:  " + conta);
+                    System.out.println(" Nº AGÊCIA:  " + agencia);
+                    System.out.println(" **********"+card);
+                    System.out.println(" CODIGO DE SEGURANÇA:  ***");
+                    System.out.println(" SENHA: **** ");
+                    System.out.println("------------"+banco+"---------------");
+                    c++;
+                }
+                else
+                {
+                    System.out.println(" --- VALOR ACIMA DO PERMITIDO ---");
+                    System.out.println("--- TENTE NOVAMENTE MAIS TARDE ---");
+                    System.out.println("----------------------------------");
+                }
+            }
+            else 
+            {
+                System.out.println("        --- SENHA INCORRETA ---       ");
+                System.out.println("----- TENTE NOVAMENTE MAIS TARDE -----");
+                System.out.println("---------------------------------------");
+            } 
+
+        } while ( c <= ZERO);
+
+        
+
+        }
+
+    }

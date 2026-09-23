@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="CSS/form.css"/>
+	<script src="JS/form.js"></script>
+	<title>  INSCRIÇÃO </title>
+	<link rel="icon" type="imagem/jpg" href="IMG/logo medio copia.jpg"/>
+</head>
+<body class="container_inicial" id="body_inicial">
+		
+	<tbody>
+
+		<form name="formulario" method="POST">
+
+				<h1> FORMULARIO DE INSCRIÇÃO </h1>
+
+			
+			<fieldset class="formulario_validado">
+
+				<div class="cada_input">
+
+					<label><strong class="strong_form"> NOME COMPLETO: </strong></label>
+					<input name="nome" type="text" placeholder=" Digite seu nome aqui " class="inputs" title=" preencha este campo" required />
+
+				</div>
+
+				<div class="cada_input">
+
+					<label><strong class="strong_form"> E-MAIL: </strong></label>
+					<input name="email" type="text" placeholder=" Ex: user@etec.com" class="inputs" title=" Informe um endereço de e-mail " required />
+
+				</div>
+
+				<div class="cada_input" value=>
+
+					<label><strong class="strong_form"> DATA DE NASC: </strong></label>
+					<input name="data" type="date" placeholder="dd/mm/aaaa" class="inputs" title=" Informe a data de nascimento " required />
+					
+				</div>
+
+				<div class="cada_input">
+
+					<label><strong class="strong_form"> CIDADE: </strong></label>
+					<select name="cidade" id="text" class="selects" title=" Informe sua cidade " required >
+							<option value=""></option>
+							<option value="SP">São Paulo</option>
+							<option value="RJ">Rio De Janeiro</option>
+							<option value="BA">Bahia</option>
+							<option value="MG">Minas gerais</option>
+					</select>
+					
+				</div>
+
+				<div class="cada_input">
+
+					<label><strong class="strong_form"> SEXO </strong></label>
+					<select name="sexo" id="text" placeholder=" Sexo " class="selects" required >
+							<option value=""></option>
+							<option value="SP"> Outros </option>
+							<option value="SP"> Masculino </option>
+							<option value="RJ"> Feminino </option>
+					</select>
+				</div>
+
+				<div class="cada_input">
+
+					<label><strong class="strong_form"> SENHA </strong></label>
+					<input name="senha" type="password" placeholder=" Minimo de 8 caracteres " class="inputs" required />
+
+				</div>
+				<div class="cada_input">
+
+					<label><strong class="strong_form">CONFIRMAÇÃO DE SENHA</strong></label>
+					<input name="confirmação" type="password" placeholder=" Minimo de 8 caracteres " class="selects" title=" Confirme sua senha " required />
+
+				</div>
+
+				<div class="botao">
+				    <label>	
+				       	<input id="botao_enviar" type="submit" value=" VALIDAR " onclick="return validar()" />
+		      		</label>
+
+		      		<label class="label_proxima">
+						  <a href="file:///C:/Users/migue_000/Desktop/Meus%20Projetos/ETECbook/index%20Segunda%20pagina.html" id="a_proxima" onclick="proxima()" target="_blank">
+							PROXIMA 
+		      			</a>
+		      		</label>
+				</div>
+
+			</fieldset>
+
+		</form>
+
+	</tbody>
+	
+
+	<tfoot>
+		    	
+
+	</tfoot>
+</body>
+</html>

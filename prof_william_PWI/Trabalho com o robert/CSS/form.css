@@ -1,0 +1,71 @@
+.container_inicial{
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+	background-color: #092533;
+	font-family: "times new roman;", Helvetica, Arial, sans-serif;
+}
+label{
+	background-color:purple;
+	font-size: 16px;
+	color: seashell;
+	border-radius: 20px;
+	padding: 5px;
+	margin-right: 50px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+h1{
+	color: white;
+	text-align: center;
+}
+.formulario_validado{
+	margin: 0 auto;
+	width: 600px;
+	height: 700px;
+	background-color: #092533;
+	border: 2px solid white;
+	border-radius: 20px;
+}
+.cada_input{
+	background-color: seashell;
+	border: 2px solid grey ;
+	border-radius: 20px;
+	padding: 20px;
+	margin: 20px;
+}
+.botao{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	align-items: center;
+}
+.inputs{
+	border: 2px solid purple;
+	border-radius: 10px;
+}
+.selects{
+	border: 2px solid purple;
+	border-radius: 10px;
+}
+#botao_enviar{
+	font-size: 16px;
+	color: white;
+	border: none;
+	background-color: purple;
+	width: 100px;
+	height: 30px;
+}
+.label_proxima{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 100px;
+	height: 30px;
+}

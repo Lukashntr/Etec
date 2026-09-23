@@ -1,0 +1,14 @@
+C:\Users\migue_000\source\repos\IRSforms\IRSforms\bin\Debug\IRSforms.exe.config
+C:\Users\migue_000\source\repos\IRSforms\IRSforms\bin\Debug\IRSforms.exe
+C:\Users\migue_000\source\repos\IRSforms\IRSforms\bin\Debug\IRSforms.pdb
+C:\Users\migue_000\source\repos\IRSforms\IRSforms\obj\Debug\IRSforms.csprojAssemblyReference.cache
+C:\Users\migue_000\source\repos\IRSforms\IRSforms\obj\Debug\IRSforms.Form1.resources
+C:\Users\migue_000\source\repos\IRSforms\IRSforms\obj\Debug\IRSforms.Properties.Resources.resources
+C:\Users\migue_000\source\repos\IRSforms\IRSforms\obj\Debug\IRSforms.csproj.GenerateResource.cache
+C:\Users\migue_000\source\repos\IRSforms\IRSforms\obj\Debug\IRSforms.csproj.CoreCompileInputs.cache
+C:\Users\migue_000\source\repos\IRSforms\IRSforms\obj\Debug\IRSforms.exe
+C:\Users\migue_000\source\repos\IRSforms\IRSforms\obj\Debug\IRSforms.pdb
+C:\Users\migue_000\source\repos\IRSforms\IRSforms\bin\Debug\IRSforms.exe.manifest
+C:\Users\migue_000\source\repos\IRSforms\IRSforms\bin\Debug\IRSforms.application
+C:\Users\migue_000\source\repos\IRSforms\IRSforms\obj\Debug\IRSforms.exe.manifest
+C:\Users\migue_000\source\repos\IRSforms\IRSforms\obj\Debug\IRSforms.application

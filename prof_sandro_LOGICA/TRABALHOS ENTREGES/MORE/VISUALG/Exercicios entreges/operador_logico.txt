@@ -1,0 +1,10 @@
+1-Desenvolva uma aplicação em C# chamada operador que leia um número e exiba seu sucessor e antecessor.
+
+2- Desenvolva uma aplicação via console em C# chamada intervalo, que o usuario Informe um numero no intervalo de 20 à 30.
+ Se o numero digitado estiver no intervalo, exiba " o numero esta no intervalo" senão " numero invalido".
+
+3-Desenvolva uma aplicação em C# chamada idadeusuario, que leia nome do usuário, idade e peso. Se peso for menor que 70 e idade menor que 20,
+ aplicação deve exibir “ Parabens voçè ainda ta novinho”, do contrario “ Voçê está velho eh”.
+
+4- Desenvolva uma aplicação em C# chamada compracerta, que leia o nome do produto, o valor do produto e a quantidade.
+ Aplicação deve efetuar  valorTotal da compra e parcelar em 3 vezes. Se o valor da compra for maior que R$ 300,00 e a parcela maior que R$ 100,00, aplicação deve exibir  “ Bom cliente”, do contrario “ Cliente gasta pouco

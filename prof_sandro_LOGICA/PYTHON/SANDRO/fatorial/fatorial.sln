@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "fatorial", "fatorial\fatorial.pyproj", "{851FDCCF-910B-43E0-A2A4-93E3B5662126}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{851FDCCF-910B-43E0-A2A4-93E3B5662126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{851FDCCF-910B-43E0-A2A4-93E3B5662126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA19995F-20FB-445E-A485-08DE9FA9B561}
+	EndGlobalSection
+EndGlobal

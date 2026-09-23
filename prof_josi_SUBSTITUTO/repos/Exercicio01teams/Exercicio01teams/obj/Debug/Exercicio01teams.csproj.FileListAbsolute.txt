@@ -1,0 +1,7 @@
+C:\Users\migue_000\source\repos\Exercicio01teams\Exercicio01teams\bin\Debug\Exercicio01teams.exe.config
+C:\Users\migue_000\source\repos\Exercicio01teams\Exercicio01teams\bin\Debug\Exercicio01teams.exe
+C:\Users\migue_000\source\repos\Exercicio01teams\Exercicio01teams\bin\Debug\Exercicio01teams.pdb
+C:\Users\migue_000\source\repos\Exercicio01teams\Exercicio01teams\obj\Debug\Exercicio01teams.csprojAssemblyReference.cache
+C:\Users\migue_000\source\repos\Exercicio01teams\Exercicio01teams\obj\Debug\Exercicio01teams.csproj.CoreCompileInputs.cache
+C:\Users\migue_000\source\repos\Exercicio01teams\Exercicio01teams\obj\Debug\Exercicio01teams.exe
+C:\Users\migue_000\source\repos\Exercicio01teams\Exercicio01teams\obj\Debug\Exercicio01teams.pdb

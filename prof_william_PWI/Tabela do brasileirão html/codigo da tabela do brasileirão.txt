@@ -1,0 +1,226 @@
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF"-8>
+			<title> Tabela do Brasilirão 2 </title>
+	<style>
+	table{
+	font-family: arial, sans-serif;
+	border:""
+	width:"50%
+	height:"50px"
+	}
+	td{
+	text-align: center;
+	padding: 5px;
+	}
+	
+
+
+
+	</style>
+    </head>
+	
+	<body>  
+	    <!--Tabela 1, definido estilos  -->
+		<center><table 
+		color="white"
+		align="center"
+		bgcolor="006622"
+        width="40%"		
+	    height="90px"
+
+		
+			<!--Div sobre o titulo da tabela-->
+			
+		    <div>
+				<tr>
+				 <center><th colspan="5" >Classificação - Brasilirão Série A</th><Center>
+				</tr>
+			</div>	
+			
+			<!--Div sobre as opções da tabela-->
+			
+			<div>
+				<tr>
+		></center>
+					<th>PARTIDAS</th>
+					<th>NOTÍCIAS</th>
+					<th>CLASSIFICAÇÃO</th>
+					<th>ESTATÍSTICAS</th>
+					<th>JOGADORES</th>
+				</tr>
+			</div>
+		</table>
+
+	    <!--Tabela 2 sobre os times, definindo estilos-->
+		<center><table
+		bgcolor=""
+		width="40%"
+		height="90px"
+		></center>
+		
+		
+		    <!--Div da temporada de 2019-->
+		    <div>
+				<tr style="background-color:#b4b4b4">
+					<td  colspan="11"> temporada <br><strong>
+                        <select>
+						  <option value="2019">2019</option>
+						  <option value="2018">2018</option>
+						  <option value="2017">2017</option>
+						  <option value="2016">2016</option>
+						  <option value="2015">2015</option>
+						</select>
+					</strong></td>
+				</tr>	
+			</div>
+				
+		
+			<!--div sobre tema de status sobre cada time-->
+			<div>
+				<tr>
+					<th>Clube</th>
+					<th>      </th>
+					<th>Pts</th>
+					<th>PJ</th>
+					<th>VIT</th>
+					<th>E</th>
+					<th>DER</th>
+					<th>GP</th>
+					<th>GC</th>
+					<th>SG</th>
+					<th>Últimas<br>cinco</th>
+				</tr>
+			</div>
+			
+			 <!--Div sobre o santos-->
+			<div>
+				<tr>
+					<td>1
+					<a href="https://www.santosfc.com.br/" target="_blank" title="Click aqui para ver o site do Santos ">
+					<img src="imagenslogo/santos logo.png" 
+					style="width:19px;height:19px;">
+					</td> 
+					<td>SANTOS</td>
+					<td>14</td>
+					<td>10</td>
+					<td>2</td>
+					<td>2</td>
+					<td>25</td>
+					<td>12</td>
+					<td>13</td>
+					<td>12</td>
+					<td>&#9675; &#9675; &#9675; &#9675; &#9675; </td>
+				</tr>
+			</div>	
+			
+			<div>
+				<tr>
+					<td>2
+					<a href="https://www.flamengo.com.br/" target="_blank" title="Click aqui para ver o site do Flamengo">
+					<img src="imagenslogo/flamengo logo.png" 
+					style="width:19px;height:19px;">
+					</td>
+					<td>FLAMENGO</td>
+					<td>30</td>
+					<td>15</td>
+					<td>9</td>
+					<td>3</td>
+					<td>3</td>
+					<td>32</td>
+					<td>18</td>
+					<td>14</td>
+					<td>&#9675; &#9675; &#9675; &#9675; &#9675; </td>
+				</tr>
+			</div>
+			
+			<div>
+				<tr>
+					<td>3
+					<a href="http://www.palmeiras.com.br/home/" target="_blank" title="Click aqui para ver o site do palmeiras">
+					<img src="imagenslogo/palmeiras logo.png" 
+					style="width:19px;height:19px;">
+					</td>
+					<td>PALMEIRAS</td>
+					<td>30</td>
+					<td>15</td>
+					<td>8</td>
+					<td>6</td>
+					<td>1</td>
+					<td>24</td>
+					<td>10</td>
+					<td>14</td>
+					<td>&#9675; &#9675; &#9675; &#9675; &#9675; </td>
+				<tr>
+			</div>
+			
+			<div>
+				<tr>
+					<td>4
+					<a href="https://atletico.com.br/" target="_blank"title="Click aqui para ver o site do Atlético Mineiro">
+					<img src="imagenslogo/atletico logo.png" 
+					style="width:19px;height:19px;">
+					</td>
+					<td>ATLÉTICO M</td>
+					<td>27</td>
+					<td>15</td>
+					<td>8</td>
+					<td>3</td>
+					<td>4</td>
+					<td>22</td>
+					<td>16</td>
+					<td>6</td>
+					<td>&#9675; &#9675; &#9675; &#9675; &#9675; </td>
+				<tr>
+			</div>
+			
+			<div>   
+				<tr>
+					<td>5
+					<a href="https://www.corinthians.com.br/" title="Click aqui para ver o site do Corinthians">
+					<img src="imagenslogo/corinthians logo.png" 
+					style="width:25px;height:25px;">
+					</td>
+					<td>CORINTHIANS</td>
+					<td>27</td>
+					<td>15</td>
+					<td>7</td>
+					<td>6</td>
+					<td>2</td>
+					<td>17</td>
+					<td>8</td>
+					<td>9</td>
+					<td>&#9675; &#9675; &#9675; &#9675; &#9675; </td>
+				<tr>
+			</div>
+			 
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		</table>
+			  
+			  
+
+
+
+
+
+
+
+
+
+
+
+
+	</body>
+
+</html>	

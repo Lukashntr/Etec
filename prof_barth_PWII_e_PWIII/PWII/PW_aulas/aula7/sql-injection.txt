@@ -1,0 +1,18 @@
+CREATE TABLE IF NOT EXISTS `teste` (
+  `id_login` int(11) AUTO_INCREMENT,
+  `nome` varchar(50) DEFAULT NULL,
+  `email` varchar(50) UNIQUE DEFAULT NULL,
+  `senha` varchar(14) DEFAULT NULL,
+  `session` varchar(100) DEFAULT NULL,
+  `data` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (id_login)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+
+---- para login
+' or 1=1--
+
+---- para deletar tabela
+' or 1=1-- '; drop table teste;--

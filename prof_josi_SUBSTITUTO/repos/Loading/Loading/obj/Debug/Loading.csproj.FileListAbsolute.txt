@@ -1,0 +1,15 @@
+C:\Users\migue_000\source\repos\Loading\Loading\bin\Debug\Loading.exe.config
+C:\Users\migue_000\source\repos\Loading\Loading\bin\Debug\Loading.exe
+C:\Users\migue_000\source\repos\Loading\Loading\bin\Debug\Loading.pdb
+C:\Users\migue_000\source\repos\Loading\Loading\obj\Debug\Loading.csprojAssemblyReference.cache
+C:\Users\migue_000\source\repos\Loading\Loading\obj\Debug\Loading.Calculadora.resources
+C:\Users\migue_000\source\repos\Loading\Loading\obj\Debug\Loading.Form1.resources
+C:\Users\migue_000\source\repos\Loading\Loading\obj\Debug\Loading.Properties.Resources.resources
+C:\Users\migue_000\source\repos\Loading\Loading\obj\Debug\Loading.csproj.GenerateResource.cache
+C:\Users\migue_000\source\repos\Loading\Loading\obj\Debug\Loading.csproj.CoreCompileInputs.cache
+C:\Users\migue_000\source\repos\Loading\Loading\obj\Debug\Loading.exe
+C:\Users\migue_000\source\repos\Loading\Loading\obj\Debug\Loading.pdb
+C:\Users\migue_000\source\repos\Loading\Loading\bin\Debug\Loading.exe.manifest
+C:\Users\migue_000\source\repos\Loading\Loading\bin\Debug\Loading.application
+C:\Users\migue_000\source\repos\Loading\Loading\obj\Debug\Loading.exe.manifest
+C:\Users\migue_000\source\repos\Loading\Loading\obj\Debug\Loading.application

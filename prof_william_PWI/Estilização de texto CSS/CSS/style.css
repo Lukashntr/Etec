@@ -1,0 +1,50 @@
+
+body{
+	margin:10;
+	padding:10;
+	font-size: normal;
+	
+	
+}
+.cor-red{	
+
+	color:red;
+}
+.ondulado{
+	
+	text-decoration-line: underline overline;
+	text-decoration-style: wavy;
+}
+.under{
+	
+	text-decoration: underline;
+}
+.font-italica {
+	font-style:italic;
+	
+}
+.fonte-negrito{
+	
+	font-weight: bold;
+	
+}
+.font-grande  {
+	
+	font-size:50px;
+}
+.linha-alta{
+	line-height: 30px;
+	letter-spacing: 4px;
+	word-spacing: 6px;
+}
+.f{
+	
+	font-family: "Times New Roman", Times, serif;
+	margin: 0 auto;
+	
+}
+.texto{
+	
+	text-align:justify;
+}
+

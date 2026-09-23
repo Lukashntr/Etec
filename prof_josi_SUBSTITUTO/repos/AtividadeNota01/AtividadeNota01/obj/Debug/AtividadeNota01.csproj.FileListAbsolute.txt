@@ -1,0 +1,7 @@
+C:\Users\migue_000\source\repos\AtividadeNota01\AtividadeNota01\bin\Debug\AtividadeNota01.exe.config
+C:\Users\migue_000\source\repos\AtividadeNota01\AtividadeNota01\bin\Debug\AtividadeNota01.exe
+C:\Users\migue_000\source\repos\AtividadeNota01\AtividadeNota01\bin\Debug\AtividadeNota01.pdb
+C:\Users\migue_000\source\repos\AtividadeNota01\AtividadeNota01\obj\Debug\AtividadeNota01.csprojAssemblyReference.cache
+C:\Users\migue_000\source\repos\AtividadeNota01\AtividadeNota01\obj\Debug\AtividadeNota01.csproj.CoreCompileInputs.cache
+C:\Users\migue_000\source\repos\AtividadeNota01\AtividadeNota01\obj\Debug\AtividadeNota01.exe
+C:\Users\migue_000\source\repos\AtividadeNota01\AtividadeNota01\obj\Debug\AtividadeNota01.pdb

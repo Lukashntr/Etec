@@ -1,0 +1,29 @@
+ 
+
+CREATE DATABASE escolarwelldb;
+
+ 
+
+use escolarwelldb;
+
+ 
+
+
+CREATE TABLE curso (
+  id_curso int(4) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+  nome_curso varchar(60) NOT NULL,
+  cargahoraria_curso int(4) NOT NULL,
+  valor_curso decimal(10,2) NULL NULL,
+  data_cad_curso timestamp DEFAULT current_timestamp
+);
+
+CREATE TABLE usuario (
+  id int PRIMARY KEY NOT NULL AUTO_INCREMENT,
+  user varchar(60) NOT NULL,
+  senha varchar(8) NOT NULL,
+  desc varchar(20) NULL NULL,
+  data_cad_curso timestamp DEFAULT current_timestamp
+);
+ 
+
+select * from usuario;

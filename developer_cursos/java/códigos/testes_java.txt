@@ -1,0 +1,97 @@
+package testedescanner;
+import java.util.Scanner;
+
+
+public class Testedescanner {
+  /**
+   *JAVA É UMA LINGUAGEM (FORTEMENTE TIPADA) OU SEJA O TIPO É MUITO INPORTANTE 
+   *NA ATRIBUIÇAO DA VARIAVEL, JAVA É UMA LINGUAGEM QUE DIFERE LETRAS 
+   *(MAIUSCULAS DE minusculas) JAVA TAMBEm É camel case OU SEJA LETRAS
+   *(MaiusculasParaSepararPalavrasSempreNoInicio) E MUITO MAIS;
+   * @param args
+   */
+    
+    //COMEÇO DO METODO PRINCIPAL;
+    public static void main(String[] args) {
+        
+        //declarando variaveis 
+        int v1, v2, soma; // TESTE SCANNER
+        int n1, n2, n3;// TESTE IF ELSE 
+        int c, a, b; // TESTE WHILE 
+        
+        System.out.println("---TESTE DE JAVA SCANNER ---");
+        
+        // criando o objeto scanner necessario para a entrada do teclado*/
+        Scanner s = new Scanner(System.in);
+        
+        //Comando de escrever na tela uns dos mais usados na linguagem  
+        System.out.println(" Informe o primeiro valor: ");
+        
+        /*Comando para a variavel receber oque é digitado
+         *observe o S recebendo o objeto scanner, e o Int no final
+         *informando que a entrada ira ser um valor inteiro de 32 byts
+        */
+        v1 = s.nextInt();              
+        System.out.println(" Informe o segundo valor: " );
+        v2 = s.nextInt();    
+        
+        // Processamento em java 
+        soma = v1 + v2; 
+        
+        // Comando de escrever na tela uns dos mais usados
+        System.out.println(" A SOMA DOS DOIS VALORES É " + soma );  
+        
+        System.out.println("--- TESTE DE IF E ELSE ---"); 
+        System.out.println("");
+        System.out.println(" Informe o 1º numero: ");
+        n1 = s.nextInt();
+        System.out.println(" Informe o 2º numero: ");
+        n2 = s.nextInt();
+        System.out.println(" Informe o 3º numero: ");
+        n3 = s.nextInt();
+        
+        // Se e senao em java, com operador logico 
+        if (n1 > n2 && n1 > n3)
+        {
+        
+            System.out.println(" O PRIMEIRO NUMERO É MAIOR ");
+
+        }
+        // Senao se em java igual a linguagem C#
+        else if( n2 > n3)
+        {
+            
+            System.out.println(" O SEGUNDO NUMERO É MAIOR ");
+        } 
+        else{
+        
+            System.out.println(" O TEERCEIRO NUMERO É O MAIOR ");
+        
+        }
+        
+
+        System.out.println("---TESTE DE LAÇO DE REPETIÇAO EM JAVA---");
+        
+        System.out.println(" Informe o numero inicial: ");
+        a = s.nextInt();
+        System.out.println(" Informe o numero final: ");
+        b = s.nextInt();
+       
+        //Estrutura de repetição do while 
+        do{         
+            System.out.println(a);
+            a++;
+        }  while (a <= b); //Condição da estrutura no final 
+
+        System.out.print(" FIM DA CONTAGEM ");
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        

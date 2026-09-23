@@ -1,0 +1,37 @@
+algoritmo "Primo"
+// Função :
+// Autor :
+// Data : 19/09/2019
+// Seção de Declarações
+var
+cont, divisor : inteiro
+resultado : real
+inicio
+// Seção de Comandos
+cont <- 3
+divisor <- 2
+enquanto cont <= 100 faca
+   escreval(cont)
+   divisor <- cont - cont + 2
+   enquanto divisor < cont faca
+
+      resultado <- cont MOD divisor
+      se resultado = 0 entao
+         interrompa
+      fimse
+
+      divisor <- divisor + 1
+   fimenquanto
+   se (resultado = 0) entao
+      escreva(" Não primo")
+   senao
+      escreva(" Primo")
+   fimse
+
+   cont <- cont + 1
+
+fimenquanto
+
+
+
+fimalgoritmo

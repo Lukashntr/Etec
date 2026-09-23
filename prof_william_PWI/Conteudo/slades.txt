@@ -1,0 +1,7 @@
+<html>
+<head>
+<title>t&iacute;tulo da p&aacute;gina</title>
+</head>
+essa &eacute; a minha primeira p&aacute;gina. <b>esse texto est&aacute; em negrito;</b>
+</body>
+</head>

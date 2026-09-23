@@ -1,0 +1,50 @@
+/*ul, li{
+	display: inline;
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: grey;
+	color: blue;
+width: 30px;
+}*/
+.container{
+	width: 80%;
+	margin: 0 auto;	
+}
+header{
+	height: 60px;
+	padding-top: 20px;
+	text-align: center;
+}
+ul{
+	list-style-type: none;
+	background-color: black;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+ul li{
+	display: inline-block;	
+}
+ul li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 25px;
+	text-decoration: none;
+}	
+li a:hover{
+	background-color: white;
+	color: black;
+	transition: 1s;
+}
+header:hover{
+	background-color: black;
+	color: white;	
+}
+input{
+	color: black;
+}
+strong{
+	color: white;	
+	padding-left: 50px;
+}

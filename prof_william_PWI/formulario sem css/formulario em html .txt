@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Formularios</title>
+	<link rel="stylesheet" type="text/css" src="style/css">
+</head>
+
+<body>
+	<h1>Tags para formularios</h1>
+	<form action="">
+		
+		<div>
+			<label><strong>Nome</strong></label><br>
+				<input type="text" name="nome" placeholder="Insira o nome completo" />
+		</div>
+		
+		<div>
+			<label><strong>E:mail</strong></label><br>
+				<input type="email" placeholder="exemplo: email@hotmail.com" /> 
+		</div>
+		
+		<div>
+			<label>CEP</label><br>
+				<input type="text" pattern="[0-9]{5}-[0-9]{3}$"
+				placeholder="00000-000" requerid />
+		</div>		
+				
+		<div>
+			<label><strong>Data de nascimento</strong></label><br>
+				<input type="date" name="dtnasc"/>
+		</div>
+		
+		<div>
+			<label><strong>Defina uma cor</strong></label><br>
+				<input type="color" name="cor" />
+		</div>
+		
+		<div>
+			<label><strong>Login</strong></label><br>
+			<input type="text" name="login" />
+		</div>
+		
+		<div>
+			<label><strong>Senha</strong></label><br>
+				<input type="password" name="pass" />
+		</div>
+		
+		<div>
+			Time do coração: <br>
+			<label> <input type="rádio" name="time"
+			value="Honestos" checked>Corinthias</label> <br>
+			<label> <input type="rádio" name="time"
+			value="Cornos">Palmeiras</label> <br>
+			<label> <input type="rádio" name="time"
+			value="Bambis">São paulo</label> <br>
+			<label> <input type="rádio" name="time"
+			value="Extintos">Santos</label> <br>
+		</div>
+		
+		<div>
+			Qual é o seu hobby? <br>
+			<label><input type="ckeckbox" value="run">Corrida</label><br>
+			<label><input type="ckeckbox" value="movie">Cinema</label><br>
+			<label><input type="ckeckbox" value="music">Música</label><br>
+			<label><input type="ckeckbox" value="games">Game</label><br>
+			<label><input type="ckeckbox" value="desenhar">Desenhar</label><br>
+		</div>
+		
+		<div>
+			<select name="city" id="cyte">
+				<option value="SP">São Paulo</option>
+				<option value="RJ">Rio de Janeiro</option>
+				<option value="BH">Bahia</option>
+				<option value="PR">Parana</option>
+				<option value="RS">Rio Grande</option>
+				<option value="SC">Santa Catarina</option>
+				<option value="ES">Espirito Santo</option>
+			</select>
+		</div>	
+		
+		<div>
+			<label>Deixe seu comentário</label>
+			<textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+		</div>
+		
+		<div>
+			
+		
+	</form>
+</body>
+</html>

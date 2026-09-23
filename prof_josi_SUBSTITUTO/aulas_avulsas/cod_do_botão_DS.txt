@@ -1,0 +1,11 @@
+string strCon = @"server=127.0.0.1;user id=root;database=escolarwelldb;SslMode=none";
+            MySqlConnection cn = new MySqlConnection(strCon);
+            cn.Open(); //abre a conexão
+            MySqlCommand comm = new MySqlCommand();
+            comm.Connection = cn;
+            comm.CommandType = CommandType.Text;
+            comm.CommandText = "insert into curso values (0, '"+txtNome.Text+
+                "',"+txtCargaHoraria.Text+" ,"+txtValor.Text+" , default)";
+            comm.ExecuteNonQuery();
+            comm.Connection.Close();//fecha a conexão
+            MessageBox.Show("Curso inserido com sucesso!");

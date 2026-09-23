@@ -1,0 +1,8 @@
+﻿1) - Desenvolva os comandos necessários para a criação do projeto de banco de dados "CADASTRO_VEICULO";
+2) - Para a cada tabela do Modelo desenvolva o comando para inserir 5 registros.
+3) - Para cada tabela desenvolva um comando para atualizar um campo(a sua escolha) com um novo valor, sempre de acordo com uma chave primária.
+4) - Para cada tabela desenvolva um comando para exlcuir um registro, sempre de acordo com uma chave primária.
+5) - Desenvolva um comando de pesquisa com 4 campos da tabela proprietario e utilizando 3 filtro(condições) de pesquisa.
+
+Envie no link com o nome da dupla:
+https://www.dropbox.com/request/PCuYDpZomLsEswBJhFTq

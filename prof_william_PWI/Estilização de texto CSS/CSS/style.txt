@@ -1,0 +1,3 @@
+.cor-red{	
+			color:red;
+		}

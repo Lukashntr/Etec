@@ -1,0 +1,8 @@
+.item 1{
+	-webkit-align-self: flex-start;
+	aling-self: flex-start:
+}
+.item 2{
+	-webkit-align-self: flex-end;
+	aling-self: flex-end:
+}

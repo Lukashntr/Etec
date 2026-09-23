@@ -1,0 +1,30 @@
+import { Injectable } from '@angular/core';
+
+import { AlertController } from '@ionic/angular';
+
+// decorator 
+@Injectable({
+  providedIn: 'root'
+})
+export class AlertasService {
+
+  constructor(
+    private alertCtrl: AlertController
+  ) { }
+
+
+// alert com mensagem da situação
+async registerMessage(situacao: string, message: string) {
+  const alert = await this.alertCtrl.create({  
+    header: 'Situação',  
+    subHeader: situacao,  
+    message: message,  
+    buttons: ['OK']  
+  });  
+  await alert.present();  
+  const result = await alert.onDidDismiss();  
+  console.log(result);  
+} 
+
+
+}
